@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Active=true
+Name=Copy filepath with quotes
+Comment=Action to copy filepath to clipboard
+Exec=<copy-filepath-to-clipboard.sh \"%F\">
+Icon-Name=gtk-execute
+Selection=s
+Extensions=any
